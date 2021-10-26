@@ -1,8 +1,8 @@
 {
 	"name": "vscode-extension-mammoth",
 	"displayName": "Mammoth",
-	"description": "",
-	"version": "0.0.1",
+	"description": "Word preview and export extension for vscode.",
+	"version": "0.1.0",
 	"publisher": "F-loat",
 	"private": true,
 	"license": "MIT",
