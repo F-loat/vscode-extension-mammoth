@@ -6,7 +6,7 @@ import { convertToHtml } from './utils';
 export class TransformProvider {
   public static register(): vscode.Disposable {
     return vscode.commands.registerCommand(TransformProvider.viewType, async (uri: vscode.Uri) => {
-      vscode.window.setStatusBarMessage('转换中...');
+      vscode.window.setStatusBarMessage('Converting...');
       
       let imageIndex = 0;
       const filePath = uri.path.replace(/\.docx$/, '');
@@ -33,7 +33,7 @@ export class TransformProvider {
       );
 
       vscode.window.setStatusBarMessage('');
-      vscode.window.setStatusBarMessage('转换成功！', 2000);
+      vscode.window.setStatusBarMessage('Conversion succeeded!', 2000);
     });
   }
 

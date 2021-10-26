@@ -17,6 +17,7 @@
 		"Other"
 	],
 	"main": "./dist/extension",
+	"icon": "media/icon.png",
 	"activationEvents": [
 		"onCommand:mammoth.editor",
 		"onCustomEditor:mammoth.editor"
@@ -29,7 +30,7 @@
 			},
 			{
 				"command": "mammoth.transform",
-				"title": "转换为 HTML 文档"
+				"title": "%mammoth.menu%"
 			}
 		],
 		"menus": {
